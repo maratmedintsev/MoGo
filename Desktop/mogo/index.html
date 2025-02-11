@@ -5,18 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MoGo</title>
     <link rel="stylesheet" href="./src/styles/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- header -->
-    <header>
-      <a href="#">MoGo</a>
-      <nav>
-        <ul>
-          <li><a href="#">ABOUT</a></li>
-          <li><a href="#service">SERVICE</a></li>
-          <li><a href="#">WORK</a></li>
-          <li><a href="#">BLOG</a></li>
-          <li><a href="#">CONTACT</a></li>
+    <header class="header">
+      <a href="#" class="header-logo">MoGo</a>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#" class="nav-link">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a href="#service">SERVICE</a>
+          </li>
+          <li class="nav-item">
+            <a href="#">WORK</a>
+          </li>
+          <li class="nav-item">
+            <a href="#">BLOG</a>
+          </li>
+          <li class="nav-item">
+            <a href="#">CONTACT</a>
+          </li>
         </ul>
       </nav>
     </header>
@@ -24,66 +40,90 @@
       <!-- services -->
       <section id="service">
         <hgroup>
-          <p>We work with</p>
-          <h2>Amazing Services</h2>
+          <p class="service-overtitle">We work with</p>
+          <h2 class="service-maintitle">Amazing Services</h2>
         </hgroup>
-        <ul>
-          <li>
-            <div>
-              <img src="./src/img/services/clock.svg" alt="clock" />
+        <ul class="service-list">
+          <li class="service-item">
+            <div class="service-photo">
+              <img
+                src="./src/img/services/clock.svg"
+                alt="clock"
+                class="service-img"
+              />
             </div>
-            <h3>photography</h3>
-            <p>
+            <h3 class="service-title">photography</h3>
+            <p class="service-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor.
             </p>
           </li>
-          <li>
-            <div>
-              <img src="./src/img/services/chart.svg" alt="chart" />
+          <li class="service-item">
+            <div class="service-photo">
+              <img
+                src="./src/img/services/chart.svg"
+                alt="chart"
+                class="service-img"
+              />
             </div>
-            <h3>photography</h3>
-            <p>
+            <h3 class="service-title">photography</h3>
+            <p class="service-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor.
             </p>
           </li>
-          <li>
-            <div>
-              <img src="./src/img/services/computer.svg" alt="computer" />
+          <li class="service-item">
+            <div class="service-photo">
+              <img
+                src="./src/img/services/computer.svg"
+                alt="computer"
+                class="service-img"
+              />
             </div>
-            <h3>photography</h3>
-            <p>
+            <h3 class="service-title">photography</h3>
+            <p class="service-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor.
             </p>
           </li>
-          <li>
-            <div>
-              <img src="./src/img/services/paper.svg" alt="paper" />
+          <li class="service-item">
+            <div class="service-photo">
+              <img
+                src="./src/img/services/paper.svg"
+                alt="paper"
+                class="service-img"
+              />
             </div>
-            <h3>photography</h3>
-            <p>
+            <h3 class="service-title">photography</h3>
+            <p class="service-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor.
             </p>
           </li>
-          <li>
-            <div>
-              <img src="./src/img/services/home.svg" alt="home" />
+          <li class="service-item">
+            <div class="service-photo">
+              <img
+                src="./src/img/services/home.svg"
+                alt="home"
+                class="service-img"
+              />
             </div>
-            <h3>photography</h3>
-            <p>
+            <h3 class="service-title">photography</h3>
+            <p class="service-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor.
             </p>
           </li>
-          <li>
-            <div>
-              <img src="./src/img/services/digital.svg" alt="digital" />
+          <li class="service-item">
+            <div class="service-photo">
+              <img
+                src="./src/img/services/digital.svg"
+                alt="digital"
+                class="service-img"
+              />
             </div>
-            <h3>photography</h3>
-            <p>
+            <h3 class="service-title">photography</h3>
+            <p class="service-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor.
             </p>
@@ -91,56 +131,72 @@
         </ul>
       </section>
       <!-- team -->
-      <section>
+      <section class="team">
         <hgroup>
-          <p>Who we are</p>
-          <h2>Meet our team</h2>
+          <p class="team-overtitle">Who we are</p>
+          <h2 class="team-maintitle">Meet our team</h2>
         </hgroup>
-        <p>
+        <p class="team-introduction">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
           aliquip ex ea commodo consequat.
         </p>
-        <ul>
-          <li>
-            <article>
-              <div>
-                <img src="./src/img/team/dix.jpg" alt="matthewdix" />
+        <ul class="team-list">
+          <li class="team-item">
+            <article class="teammate">
+              <div class="teammate-photo">
+                <img
+                  src="./src/img/team/dix.jpg"
+                  alt="matthewdix"
+                  class="teammate-img"
+                />
               </div>
-              <h3>Matthew Dix</h3>
-              <p>Graphic Design</p>
+              <h3 class="teammate-name">Matthew Dix</h3>
+              <p class="teammate-profession">Graphic Design</p>
             </article>
           </li>
-          <li>
-            <article>
-              <div>
+          <li class="team-item">
+            <article class="teammate">
+              <div class="teammate-photo">
                 <img
                   src="./src/img/team/campbell.jpg"
                   alt="christophercampbell"
+                  class="teammate-img"
                 />
               </div>
-              <h3>Christopher Campbell</h3>
-              <p>Branding/UX design</p>
+              <h3 class="teammate-name">Christopher Campbell</h3>
+              <p class="teammate-profession">Branding/UX design</p>
             </article>
           </li>
-          <li>
-            <article>
-              <div>
-                <img src="./src/img/team/fertig.jpg" alt="michaelfertig" />
+          <li class="team-item">
+            <article class="teammate">
+              <div class="teammate-photo">
+                <img
+                  src="./src/img/team/fertig.jpg"
+                  alt="michaelfertig"
+                  class="teammate-img"
+                />
               </div>
-              <h3>Michael Fertig</h3>
-              <p>Developer</p>
+              <h3 class="teammate-name">Michael Fertig</h3>
+              <p class="teammate-profession">Developer</p>
             </article>
           </li>
         </ul>
       </section>
     </main>
-    <footer>
-      <p>© 2016 MoGo free PSD template by <span>Laaqiq</span></p>
-      <form>
-        <input type="email" placeholder="Your Email..." />
-        <button type="submit">Subscribe</button>
+    <footer class="footer">
+      <p class="footer-policy">
+        © 2016 MoGo free PSD template by
+        <span class="footer-author">Laaqiq</span>
+      </p>
+      <form class="footer-form">
+        <input
+          type="email"
+          placeholder="Your Email..."
+          class="footer-emailinput"
+        />
+        <button type="submit" class="footer-subscribebutton">Subscribe</button>
       </form>
     </footer>
   </body>
